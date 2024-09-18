@@ -15,12 +15,12 @@ export default function Header() {
           <Link href="/ajuda" className="text-gray-600 hover:text-green-600">
             Ajuda
           </Link>
-          <Link 
+            <Link 
             href="/login" 
-            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-300"
-          >
+            className="bg-[rgb(1,135,98)] text-white px-4 py-2 rounded-md hover:bg-[rgb(0,108,78)] transition duration-300"
+            >
             Entrar
-          </Link>
+            </Link>
         </nav>
         <button className="md:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
