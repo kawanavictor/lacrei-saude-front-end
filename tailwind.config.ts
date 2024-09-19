@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'material-symbols': ['Material Symbols Outlined'],
+      },
     },
   },
   plugins: [],

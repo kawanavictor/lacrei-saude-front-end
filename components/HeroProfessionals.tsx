@@ -56,15 +56,15 @@ const Button = styled.a`
     }
 `;
 
-export function HeroPacients() {
+export function HeroProfessionals() {
     return (
         <HeroSection>
             <HeroContent>
-                <HeroTitle>Cuidado de Saúde Inclusivo para Pacientes LGBTQIAPN+</HeroTitle>
+                <HeroTitle>Junte-se à Nossa Rede de Profissionais de Saúde Inclusivos</HeroTitle>
                 <HeroDescription>
-                    Encontre profissionais de saúde qualificados e acolhedores, proporcionando experiências de cuidado seguras e inclusivas para a comunidade LGBTQIAPN+.
+                    Faça parte de uma comunidade dedicada a fornecer cuidados de saúde de qualidade e inclusivos para pacientes LGBTQIAPN+.
                 </HeroDescription>
-                <Button href="https://paciente.lacreisaude.com.br/">Cadastre-se como Paciente</Button>
+                <Button href="https://profissional.lacreisaude.com.br/">Cadastre-se como Profissional</Button>
             </HeroContent>
         </HeroSection>
     );
