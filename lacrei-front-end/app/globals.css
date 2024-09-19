@@ -56,3 +56,9 @@ body {
   direction: ltr;
   -webkit-font-smoothing: antialiased;
 }
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/nunito.woff2') format('woff2');
+  font-display: swap;
+}
