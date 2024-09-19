@@ -49,10 +49,12 @@ const Button = styled.a`
     border-radius: 0.375rem;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
     &:hover {
         background-color: #047857;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     }
 `;
 
